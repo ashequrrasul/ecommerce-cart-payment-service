@@ -16,7 +16,7 @@ env:
   REPOSITORY: golden-path
   IMAGE_NAME: cart-payment-service
   DEPLOY_REPO: ashequrrasul/gcp-golden-path-platform
-  DEPLOY_VALUES_FILE: apps/cart-payment-service/values.yaml
+  DEPLOY_VALUES_FILE: helm-charts/cart-payment-service/values.yaml
 
 jobs:
   test-build-scan-publish:
